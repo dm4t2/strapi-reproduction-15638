@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_restrictions_countries",
+  "info": {
+    "displayName": "Country",
+    "icon": "globe",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "countries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::country.country"
+    }
+  }
+}
